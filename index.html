@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <style>
+            * {
+                font-family: 'Bruno Ace SC', sans-serif;
+                font-size: xx-large;
+                background: rgb(2,0,36);
+                background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            }
+
+            .container1 {
+                height: 10em;
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+            }
+
+            .container1 p {
+                margin: 0;
+                color: aliceblue;
+                background: none;
+            }
+
+            .container2 {
+                height: 10em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: none;
+            }
+
+            .container2 button {
+                margin: 20px;
+                color: aliceblue;
+                border-color: aliceblue;
+            }
+
+            @media (max-width: 767px) {
+                .container2 {
+                    display: grid;
+                }  
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container1">
+            <p>Projeto Integrador - Turma 031.2021.0095</p>
+        </div>
+
+        <div class="container2">
+            <button type="button" class="btn btn-outline-primary btn-lg">Dark</button>
+            <button type="button" class="btn btn-outline-primary btn-lg">Dark</button>
+            <button type="button" class="btn btn-outline-primary btn-lg">Dark</button>
+        </div>
+
+        <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+        <script>
+            new TypeIt("p", {
+                strings: "Clique nos botões abaixo para saber mais...",
+                speed: 100,
+                loop: true,
+            }).go();
+        </script>
+    </body>
+</html>

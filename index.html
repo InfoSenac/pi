@@ -11,8 +11,8 @@
             * {
                 font-family: 'Bruno Ace SC', sans-serif;
                 font-size: xx-large;
-                background: rgb(2,0,36);
-                background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+                background: rgb(36,25,0);
+                background: linear-gradient(90deg, rgba(246,139,31,1) -10%, rgba(0,75,141,1) 100%);
             }
 
             .container1 {
@@ -24,7 +24,7 @@
 
             .container1 p {
                 margin: 0;
-                color: aliceblue;
+                color: rgb(255, 255, 255);
                 background: none;
             }
 
@@ -38,13 +38,25 @@
 
             .container2 button {
                 margin: 20px;
-                color: aliceblue;
-                border-color: aliceblue;
+                color: rgb(255, 255, 255);
+                border-color: rgb(255, 255, 255);
+            }
+
+            .container2 button:hover {
+                background-color: #004b8d;
+                border-color: #004b8d;
+                color: #f68b1f;
             }
 
             @media (max-width: 767px) {
                 .container2 {
                     display: grid;
+                }  
+            }
+
+            @media (max-width: 767px) {
+                * {
+                    font-size: larger;
                 }  
             }
         </style>

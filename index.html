@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>PI - 0095</title>
         <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <style>
@@ -36,27 +36,25 @@
                 background: none;
             }
 
-            .container2 button {
+            .container2 a {
                 margin: 20px;
                 color: rgb(255, 255, 255);
                 border-color: rgb(255, 255, 255);
+                width: 400px;
             }
 
-            .container2 button:hover {
+            .container2 a:hover {
                 background-color: #004b8d;
                 border-color: #004b8d;
                 color: #f68b1f;
             }
 
-            @media (max-width: 767px) {
-                .container2 {
-                    display: grid;
-                }  
-            }
-
-            @media (max-width: 767px) {
+            @media (max-width: 1280px) {
                 * {
                     font-size: larger;
+                } 
+                .container2 {
+                    display: grid;
                 }  
             }
         </style>
@@ -67,9 +65,9 @@
         </div>
 
         <div class="container2">
-            <button type="button" class="btn btn-outline-primary btn-lg">Dark</button>
-            <button type="button" class="btn btn-outline-primary btn-lg">Dark</button>
-            <button type="button" class="btn btn-outline-primary btn-lg">Dark</button>
+            <a href="lafacult/lafacult.html" type="button" class="btn btn-outline-primary btn-lg">LafaCult</a>
+            <a href="resgato/resgato.html" type="button" class="btn btn-outline-primary btn-lg">Resgato</a>
+            <a href="salaconnect/salaconnect.html" type="button" class="btn btn-outline-primary btn-lg">SalaConnect</a>
         </div>
 
         <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>

@@ -70,10 +70,19 @@
             <a href="salaconnect/salaconnect.html" type="button" class="btn btn-outline-primary btn-lg">SalaConnect</a>
         </div>
 
+        <div class="container1">
+            <p id="data">Sala 03 - Unidade Centro</p>
+        </div>
+
         <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
         <script>
             new TypeIt("p", {
                 strings: "Clique nos botões abaixo para saber mais...",
+                speed: 100,
+                loop: true,
+            }).go();
+            new TypeIt("#data", {
+                strings: "15/05/2023 - Início às 15:15",
                 speed: 100,
                 loop: true,
             }).go();

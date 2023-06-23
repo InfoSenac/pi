@@ -1,0 +1,143 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(185,59,14);
+    background: linear-gradient(90deg, rgba(185,59,14,1) 0%, rgba(203,80,8,1) 25%, rgba(255,138,42,0.7987570028011204) 73%, rgba(252,165,71,1) 100%, rgba(252,176,69,1) 100%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+nav {
+    background-color:#ffffff00;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 80px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(243, 183, 118);
+}
+
+.inicio {
+    padding: 5px;
+    justify-content: center;
+}
+
+.inicio img {
+    width: 600px;
+    height: 600px;
+    margin-left: 33%;
+
+}
+
+.funcionalidades {
+    margin-top: 2%;
+    text-align: center;
+    border-style: solid;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-image: linear-gradient(90deg, rgba(252,176,69,1) 30%, rgb(199, 105, 5), 100%, rgba(185,59,14,1) 100%) 1;
+    background-color:#ffffff00
+}
+
+.funcionalidades h2 {
+    color: rgb(88, 40, 8);
+    font-size: 35px;
+   
+}
+
+.funcionalidades li {
+    list-style-type: none;
+    font-size: 20px;
+    margin-bottom: 3px;
+    color: rgb(114, 47, 2);
+
+}
+
+.sobre {
+    border-image: linear-gradient(90deg, rgba(252,176,69,1) 30%, rgb(199, 105, 5), 100%, rgba(185,59,14,1) 100%) 1;
+    background-color: #ffffff00;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+    border-style: solid;
+    margin-bottom: 10%;
+}
+
+.sobre h2 {
+    font-size: 35px;
+    color: rgb(88, 40, 8)
+}
+
+.sobre p {
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 20px;
+    color: rgb(114, 47, 2);
+}
+
+@media (max-width: 600px) {
+    i {
+        margin-right: 10px;
+    }
+
+}
+
+
+
+@media (max-width: 400px) {
+    i {
+        margin-right: 10px;
+    }
+
+    .funcionalidades li {
+        list-style-type: none;
+        font-size: 10px;
+        margin-bottom: 3px;
+        color: rgb(114, 47, 2);
+    
+    }
+
+
+}

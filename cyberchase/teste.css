@@ -1,0 +1,138 @@
+.pixel {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  animation: cascade 2s infinite;
+}
+
+@keyframes cascade {
+  0% {
+    top: -10px;
+    opacity: 0;
+  }
+  100% {
+    top: 100vh;
+    opacity: 1;
+  }
+}
+
+.color-black {
+  background-color: #000;
+}
+
+.color-navy {
+  background-color: navy;
+}
+
+.color-white {
+  background-color: #fff;
+}
+
+.color-gray {
+  background-color: gray;
+}
+
+.color-blue {
+  background-color: rgb(0, 140, 255);
+}
+
+body {
+  animation: changeColor 30s infinite;
+}
+
+@keyframes changeColor {
+  0% { background-color: black; }
+  20% { background-color: rgba(0, 0, 0, 0.8); }
+  40% { background-color: gray; }
+  60% { background-color: white; }
+  80% { background-color: gray; }
+  100% { background-color: black; }
+}
+h1{
+  font-family: "GlitchGoblin";
+  display: flex;
+  justify-content: center;
+  margin: 80px;
+  font-size: 200px;
+  color: aqua;
+}
+
+.segunda{
+  font-family: "GlitchGoblin";
+  display: flex;
+  justify-content: center;
+  margin: 80px;
+  font-size: 200px;
+  margin-top: -300px;
+  color: #000;
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "GlitchGoblin";
+  color: aqua;
+  border: solid 1px black;
+  margin-left: 25%;
+  margin-right:25%;
+  background-color: #000;
+  border-radius: 20%;
+  padding: 20px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "GlitchGoblin";
+  color: aqua;
+  border: solid 1px black;
+  margin-left: 25%;
+  margin-right:25%;
+  background-color: #000;
+  border-radius: 20%;
+  padding: 20px;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(49, 113, 128);
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 120px;
+  padding: 10px;
+}
+
+.imagem1 {
+  transition: transform 0.3s ease-in-out;
+  max-width: 30%;
+}
+
+.imagem1:hover {
+  transform: scale(1.2);
+}
+
+.imagem2 {
+  transition: transform 0.3s ease-in-out;
+  max-width: 30%;
+}
+
+.imagem2:hover {
+  transform: scale(1.2);
+}
+
+h2{
+  font-family: "GlitchGoblin";
+  display: flex;
+  justify-content: center;
+  margin: 80px;
+  font-size: 70px;
+  color: aqua;
+}
+

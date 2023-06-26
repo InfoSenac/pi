@@ -16,6 +16,18 @@
   }
 }
 
+a{
+  font-family: "GlitchGoblin";
+  color: aqua;
+  border: solid black;
+  padding: 5px;
+  font-size: 50px;
+  text-decoration: none;
+  border-radius: 5%;
+  display: inline;
+  margin: 5%;
+}
+
 .color-black {
   background-color: #000;
 }
